@@ -9,7 +9,7 @@ resource "aws-instance" "ec2" {
     security_gropup = ["my-new-sg"]
     key_Name = "piu"
     root_block_device {
-        volume_size = 20te
+        volume_size = 20
         volume_type = "gp3"
         delete_on_termination = true
     }
